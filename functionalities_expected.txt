@@ -1,0 +1,18 @@
+Functionality Expected:
+1. Adding users to the database by DBA with necessary privileges.
+2. Allowing DBA and Manager to add/delete/update any property record.
+3. Allowing the owner to add/delete/update his property record only.
+4. Allowing Admin and Manager to add property-rent details after property is
+rented by a tenant.
+5. Generate a report on the rent history of a property.
+6. To check the list of available properties for rent within a given city/locality/price
+range.
+7. To check the status of a property based on property ID by all users.
+8. A tenant can’t insert/delete/modify any data in any table. He can just look
+for available properties for rent.
+9. Write a Stored Procedure to enter a record for the property. The name of the stored procedure is InsertPropertyRecord(with necessary arguments/parameters for the attributes of the record).
+10. Write a Stored Procedure to display the properties (with all details) for a given ownerid. The name of the stored procedure is GetPropertyRecords(with Owner ID as the parameter).
+11. Write a stored procedure to Print the tenant details for a given property. The name of the stored procedure is GetTenantDetails(with property id as the argument).
+12. Write a Stored Procedure to enter a record for a new User. The name of the stored procedure is CreateNewUser (with necessary arguments/parameters for the attributes like- user name, address, login credentials, etc. of the record).
+13. Write a stored procedure that prints details of properties available in a city/locality. The name of the stored procedure is SearchProperyForRent(with city/locality as the argument).
+14. Write a stored procedure to print the rent history for a given property. The name of the stored procedure is GetRentHistory(with property id as the argument).
